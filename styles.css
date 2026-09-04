@@ -720,3 +720,283 @@ p {
   }
 }
 
+
+/* Mobile polish */
+@media (max-width: 760px) {
+  .container {
+    width: min(100% - 24px, 520px);
+  }
+
+  .section-block {
+    padding: 56px 0;
+  }
+
+  .topbar {
+    position: static;
+    background: #fffaf5;
+  }
+
+  .nav {
+    min-height: auto;
+    padding: 10px 0 12px;
+    gap: 10px;
+  }
+
+  .brand-badge {
+    width: 64px;
+    height: 64px;
+  }
+
+  .nav-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .nav-actions .btn {
+    min-height: 44px;
+    padding: 0 12px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+
+  .hero {
+    padding: 42px 0 38px;
+    min-height: auto;
+    background-position: center;
+  }
+
+  .hero-grid {
+    gap: 28px;
+  }
+
+  .eyebrow {
+    font-size: 0.68rem;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+  }
+
+  h1 {
+    font-size: 2.65rem;
+    line-height: 1.02;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 1.08;
+  }
+
+  .hero-copy .lead {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .hero-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 24px 0 20px;
+  }
+
+  .btn {
+    width: 100%;
+    min-height: 48px;
+    border-radius: 12px;
+  }
+
+  .hero-highlights {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 6px;
+    font-size: 0.92rem;
+  }
+
+  .hero-card {
+    justify-content: stretch;
+  }
+
+  .pizza-box {
+    width: 100%;
+    border-radius: 16px;
+    padding: 20px;
+  }
+
+  .pizza-box h3 {
+    font-size: 1.65rem;
+  }
+
+  .pizza-box ul {
+    margin: 14px 0 18px;
+  }
+
+  .price-row {
+    align-items: stretch;
+    font-size: 1.2rem;
+  }
+
+  .mini-btn {
+    width: 100%;
+    min-height: 42px;
+    border-radius: 12px;
+  }
+
+  .features {
+    gap: 12px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .features article,
+  .menu-card,
+  .booking-card,
+  .review-grid blockquote,
+  .menu-section,
+  .menu-categories {
+    border-radius: 14px;
+  }
+
+  .features article,
+  .menu-card,
+  .booking-card,
+  .review-grid blockquote {
+    padding: 20px;
+  }
+
+  .about,
+  .about-copy {
+    text-align: left;
+  }
+
+  .about-copy ul {
+    list-style-position: outside;
+    padding-left: 18px;
+  }
+
+  .menu-grid,
+  .order-panels,
+  .review-grid {
+    gap: 14px;
+  }
+
+  .meta,
+  .price-row,
+  .item-meta {
+    width: 100%;
+    align-items: stretch;
+    white-space: normal;
+  }
+
+  .order-panels {
+    grid-template-columns: 1fr;
+  }
+
+  .booking-card input,
+  .booking-card select {
+    min-height: 46px;
+    border-radius: 10px;
+  }
+
+  .small-hero {
+    padding: 42px 0 36px;
+  }
+
+  .menu-page-content {
+    padding: 28px 0 56px;
+  }
+
+  .menu-layout {
+    gap: 18px;
+  }
+
+  .menu-categories {
+    position: static;
+    padding: 14px;
+  }
+
+  .menu-categories h3 {
+    display: none;
+  }
+
+  .menu-categories ul {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scroll-snap-type: x proximity;
+  }
+
+  .menu-categories li {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+  }
+
+  .menu-categories a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 38px;
+    padding: 0 12px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: #fff;
+    font-size: 0.9rem;
+  }
+
+  .menu-section {
+    padding: 18px;
+  }
+
+  .menu-section h2 {
+    font-size: 1.65rem;
+  }
+
+  .menu-item {
+    display: grid;
+    gap: 12px;
+    align-items: start;
+  }
+
+  .menu-item h3 {
+    font-size: 1.28rem;
+  }
+
+  .site-footer {
+    padding: 36px 0;
+  }
+
+  .footer-grid {
+    gap: 20px;
+  }
+
+  .toast {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    text-align: center;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    width: min(100% - 20px, 360px);
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .nav-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-badge {
+    width: 58px;
+    height: 58px;
+  }
+}

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Royal Pizza Clermont de l'Oise - pizzeria, livraison, retrait et commande par téléphone."
+    />
+    <title>Royal Pizza Clermont | Pizzas, livraison et retrait</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a href="index.html" class="logo" aria-label="Accueil Royal Pizza">
+          <img src="assets/royal-pizza-logo.svg" alt="Royal Pizza" class="brand-badge" />
+        </a>
+        <nav class="main-nav" aria-label="Navigation principale">
+          <a href="#accueil">Accueil</a>
+          <a href="#a-propos">Pizzeria</a>
+          <a href="menu.html">Menu</a>
+          <a href="#avis">Avis</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a href="tel:+33344774051" class="btn btn-light">03 44 77 40 51</a>
+          <a href="#commande" class="btn btn-primary">Commander</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="accueil" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Sur place - À emporter - Livraison</p>
+            <h1>Royal Pizza Clermont</h1>
+            <p class="lead">
+              Pizzas généreuses, pâte préparée maison et commande rapide au 26 rue de la
+              République, à Clermont. Appelez directement pour commander en retrait ou en
+              livraison autour de Clermont.
+            </p>
+            <div class="hero-actions">
+              <a href="tel:+33344774051" class="btn btn-primary">Appeler maintenant</a>
+              <a href="menu.html" class="btn btn-secondary">Voir la carte</a>
+            </div>
+            <ul class="hero-highlights" aria-label="Points forts">
+              <li>Pizzas généreuses</li>
+              <li>Livraison le soir</li>
+              <li>Retrait rapide</li>
+            </ul>
+          </div>
+          <div class="hero-card" aria-label="Suggestion du moment">
+            <div class="pizza-box">
+              <span class="badge">À commander</span>
+              <h3>Pizza Royale</h3>
+              <ul>
+                <li>Recette signature de la maison</li>
+                <li>Disponible en plusieurs tailles</li>
+                <li>Commande par téléphone en quelques secondes</li>
+              </ul>
+              <div class="price-row">
+                <strong>Dès 10,90 EUR</strong>
+                <a class="mini-btn" href="tel:+33344774051" data-product="Pizza Royale">Appeler</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features container">
+        <article>
+          <span>01</span>
+          <h3>Commande directe</h3>
+          <p>Le numéro est visible tout de suite pour transformer une visite en appel.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Menu clair</h3>
+          <p>Les clients trouvent rapidement les pizzas, desserts et boissons.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Visibilité locale</h3>
+          <p>Une page optimisée pour les recherches autour de Royal Pizza Clermont.</p>
+        </article>
+      </section>
+
+      <section id="a-propos" class="about container section-block">
+        <div class="about-copy">
+          <p class="eyebrow accent">La pizzeria</p>
+          <h2>Une adresse locale pour commander une bonne pizza à Clermont.</h2>
+          <p>
+            Royal Pizza accueille les clients au 26 rue de la République pour manger sur
+            place, récupérer une commande ou se faire livrer le soir. Le site sert de vitrine
+            simple: menu lisible, téléphone accessible, infos pratiques et parcours rapide.
+          </p>
+          <ul>
+            <li>Adresse et téléphone visibles sur toutes les pages</li>
+            <li>Carte consultée facilement sur mobile</li>
+            <li>Boutons d'appel pour réduire les abandons</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="seo" class="menu-preview section-block">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow accent">À la carte</p>
+            <h2>Les pizzas que les clients cherchent le plus souvent.</h2>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-card">
+              <div class="card-tag">Signature</div>
+              <h3>Pizza Royale</h3>
+              <p>Une pizza généreuse pour les amateurs de recettes complètes.</p>
+              <div class="meta">
+                <span>Dès 10,90 EUR</span>
+                <a class="mini-btn" href="tel:+33344774051" data-product="Pizza Royale">Appeler</a>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <div class="card-tag">Tradition</div>
+              <h3>Pizza Tikka</h3>
+              <p>Une recette épicée et gourmande, idéale en livraison.</p>
+              <div class="meta">
+                <span>Prix selon taille</span>
+                <a class="mini-btn" href="tel:+33344774051" data-product="Pizza Tikka">Appeler</a>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <div class="card-tag">Classique</div>
+              <h3>Margherita</h3>
+              <p>Tomate, mozzarella et plaisir simple.</p>
+              <div class="meta">
+                <span>Dès 9,90 EUR</span>
+                <a class="mini-btn" href="tel:+33344774051" data-product="Margherita">Appeler</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="center-cta">
+            <a href="menu.html" class="btn btn-primary">Decouvrir tout le menu</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="commande" class="order section-block">
+        <div class="container order-grid">
+          <div>
+            <p class="eyebrow accent">Commande rapide</p>
+            <h2>Un client sur mobile doit pouvoir commander en deux gestes.</h2>
+            <p>
+              Le site met l'appel en avant, puis guide vers le menu. Pour une première version,
+              c'est plus efficace qu'un tunnel de commande complexe: le gérant garde son
+              fonctionnement habituel et gagne une vitrine professionnelle.
+            </p>
+            <div class="order-panels">
+              <div>
+                <strong>Livraison</strong>
+                <span>Autour de Clermont</span>
+              </div>
+              <div>
+                <strong>Retrait</strong>
+                <span>26 rue de la République</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="booking-card" aria-label="Preparation de commande">
+            <label>
+              Nom
+              <input type="text" placeholder="Votre nom" />
+            </label>
+            <label>
+              Pizza souhaitée
+              <select>
+                <option>Pizza Royale</option>
+                <option>Pizza Tikka</option>
+                <option>Margherita</option>
+                <option>Reine</option>
+              </select>
+            </label>
+            <label>
+              Type de commande
+              <select>
+                <option>Livraison</option>
+                <option>À emporter</option>
+              </select>
+            </label>
+            <a href="tel:+33344774051" class="btn btn-primary full">Appeler pour valider</a>
+          </form>
+        </div>
+      </section>
+
+      <section id="reservation" class="reservation section-block">
+        <div class="container reservation-grid">
+          <div class="reservation-copy">
+            <p class="eyebrow accent">Pourquoi ce site</p>
+            <h2>La valeur: être trouvé sur Google et recevoir plus d'appels.</h2>
+            <p>
+              Beaucoup de clients cherchent une pizzeria directement depuis leur téléphone.
+              Une page rapide, claire et bien référencée donne une adresse officielle à Royal
+              Pizza et limite la dépendance aux plateformes tierces.
+            </p>
+          </div>
+
+          <div class="booking-card contact-card">
+            <h3>Infos pratiques</h3>
+            <p>Royal Pizza Clermont</p>
+            <p>26 rue de la République, 60600 Clermont</p>
+            <a href="tel:+33344774051" class="btn btn-secondary full">03 44 77 40 51</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="avis" class="reviews section-block">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow accent">Avis clients</p>
+            <h2>Une réputation locale à mieux exploiter.</h2>
+          </div>
+          <div class="review-grid">
+            <blockquote>
+              "Prix correct et livraison rapide. Je recommande."
+              <footer>- Client local</footer>
+            </blockquote>
+            <blockquote>
+              "Pizzas excellentes, sandwichs aussi, jamais déçu."
+              <footer>- Client habitue</footer>
+            </blockquote>
+            <blockquote>
+              "Une adresse pratique pour commander a Clermont."
+              <footer>- Client en livraison</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="logo footer-logo" aria-label="Accueil Royal Pizza">
+            <img src="assets/royal-pizza-logo.svg" alt="Royal Pizza" class="brand-badge" />
+          </a>
+          <p>Votre pizzeria à Clermont de l'Oise.</p>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>26 rue de la République</li>
+            <li>60600 Clermont</li>
+            <li><a href="tel:+33344774051">03 44 77 40 51</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Commande</h4>
+          <ul>
+            <li>Sur place</li>
+            <li>À emporter</li>
+            <li>Livraison le soir</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" aria-live="polite">Commande préparée</div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1000,3 +1000,52 @@ p {
     height: 58px;
   }
 }
+
+/* Header mobile: one compact, non-wrapping row */
+@media (max-width: 760px) {
+  .nav {
+    display: grid;
+    grid-template-columns: 64px minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .nav-actions {
+    grid-template-columns: minmax(0, 1fr) auto;
+    width: auto;
+    gap: 8px;
+    margin-left: 0;
+  }
+
+  .nav-actions .btn {
+    padding: 0 10px;
+    font-size: 0.84rem;
+    white-space: nowrap;
+  }
+
+  .nav-actions .btn-light {
+    min-width: 0;
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .nav {
+    grid-template-columns: 54px minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .brand-badge {
+    width: 54px;
+    height: 54px;
+  }
+
+  .nav-actions {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 6px;
+  }
+
+  .nav-actions .btn {
+    padding: 0 8px;
+    font-size: 0.78rem;
+  }
+}
